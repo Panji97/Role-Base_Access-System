@@ -105,3 +105,11 @@ export const employeeLogin = async (req, role, res) => {
     })
   }
 }
+
+export const employeeLogout = async (req, role, res) => {
+  try {
+    console.log('ini adalah tambahan code yang saya buat')
+  } catch (error) {
+    return error
+  }
+}
