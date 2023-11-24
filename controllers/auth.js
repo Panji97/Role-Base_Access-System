@@ -109,6 +109,7 @@ export const employeeLogin = async (req, role, res) => {
 export const employeeLogout = async (req, role, res) => {
   try {
     console.log('ini adalah tambahan code yang saya buat')
+    console.log('ini tambahan code yang kedua ya kan.')
   } catch (error) {
     return error
   }
